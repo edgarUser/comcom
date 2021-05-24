@@ -1,0 +1,21 @@
+{
+    "k8s version": "kubectl version",
+    "k8s get pods": "kubectl get pods",
+    "k8s start a pod": "kubectl run --image=nginx web",
+    "k8s pod information": "kubectl describe pod podname",
+    "k8s run declarative": "kubectl apply -f filename",
+    "k8s run several files": "kubectl apply -f .",
+    "k8s start or update services": "kubectl apply -f filename",
+    "k8s get minikube ip": "minikube ip",
+    "k8s get pod documentation": "kubectl explain pod",
+    "k8s get pod features documentation": "kubectl explain pod.spec.restartPolicy",
+    "k8s validate forwardinf pod": "kubectl port-forward blue 8080:8080",
+    "k8s get pod logs": "kubectl logs podname",
+    "k8s execute runtime": "kubectl exec -ti podname /bin/sh",
+    "get statistics from a pod": "kubectl top pods",
+    "get operational statics from cluster": "minikube dashboard",
+    "get api resources and versions": "kubectl api-resources", 
+    "get api resources and versions filtered": "kubectl api-resources | grep apps",
+    "watch what is happend on run command": "watch kubectl get pods",
+    "identify what will change": "kubectl diff -f yamlfile"
+}
